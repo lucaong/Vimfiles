@@ -1,2 +1,3 @@
-*.bkp
+bundle.bkp
+.netrwhist
 .DS_Store
