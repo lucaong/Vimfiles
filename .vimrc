@@ -65,6 +65,10 @@ nmap gj <C-w>j
 nmap gk <C-w>k
 nmap gl <C-w>l
 
+" Moving between tabs
+nmap tl gt
+nmap th gT
+
 " Get rid of annoying register rewriting when pasting on visually selected
 " text.
 "
