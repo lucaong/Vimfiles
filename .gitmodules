@@ -45,3 +45,7 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "bundle/acp"]
+	path = bundle/acp
+	url = git@github.com:vim-scripts/AutoComplPop.git
+  ignore = untracked
