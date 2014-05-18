@@ -16,12 +16,14 @@
 [submodule "bundle/switch.vim"]
 	path = bundle/switch.vim
 	url = git://github.com/AndrewRadev/switch.vim.git
+  ignore = untracked
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git@github.com:godlygeek/tabular.git
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
 	url = git://github.com/tpope/vim-afterimage.git
+  ignore = untracked
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = git://github.com/tpope/vim-bundler.git
