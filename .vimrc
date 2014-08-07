@@ -33,7 +33,7 @@ nnoremap Y y$
 
 " Theme
 set background=dark
-colorscheme BusyBee_TS
+colorscheme solarized
 set guifont="Monaco for Powerline 14"
 set number
 
@@ -45,6 +45,9 @@ set shiftwidth=2
 " Backup and swap files
 set backupdir=~/.vim-tmp
 set directory=~/.vim-tmp
+set nobackup
+set noswapfile
+set nowritebackup
 
 " History and autocomplete
 set history=1000
@@ -107,9 +110,12 @@ let g:ackprg = 'ack -H --nocolor --nogroup --column --ignore-dir="node_modules" 
 " Remap esc
 inoremap kj <Esc>
 
-" Powerline
+" Airline
 set encoding=utf-8
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
 
 " Load matchit.vim, but only if the user hasn't installed a newer version.
 if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
