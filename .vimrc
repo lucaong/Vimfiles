@@ -33,7 +33,7 @@ nnoremap Y y$
 
 " Theme
 set background=dark
-colorscheme solarized
+colorscheme BusyBee_TS
 set guifont="Monaco for Powerline 14"
 set number
 
