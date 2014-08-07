@@ -33,6 +33,9 @@ nnoremap Y y$
 
 " Theme
 set background=dark
+if !has("gui_running")
+   let g:gruvbox_italic=0
+endif
 colorscheme gruvbox
 set guifont="Monaco for Powerline 14"
 set number
