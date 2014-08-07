@@ -52,3 +52,6 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static.git
+[submodule "bundle/acp"]
+  path = bundle/acp
+  url = git@github.com:vim-scripts/AutoComplPop.git
