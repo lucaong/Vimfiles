@@ -13,3 +13,7 @@ To check this out, backup your `.vimrc` and your `.vim`, then checkout the repo 
     cd ~/.vim
     git submodule init
     git submodule update
+
+You might also need to create the directory where swap and backup files are created:
+
+    mkdir -p ~/.vim-tmp
