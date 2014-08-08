@@ -54,6 +54,7 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static.git
+  ignore = untracked
 [submodule "bundle/auto-complete-pop"]
 	path = bundle/auto-complete-pop
 	url = git@github.com:vim-scripts/AutoComplPop.git
