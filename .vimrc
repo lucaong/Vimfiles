@@ -30,6 +30,7 @@ set autowrite
 set fileformats=unix
 set wildmode=list:full
 nnoremap Y y$
+set textwidth=80
 
 " Theme
 set background=dark
