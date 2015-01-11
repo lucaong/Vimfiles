@@ -62,3 +62,6 @@
 [submodule "bundle/rainbow_parentheses"]
 	path = bundle/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim
+[submodule "bundle/vim-rust"]
+	path = bundle/vim-rust
+	url = git@github.com:wting/rust.vim.git
