@@ -143,6 +143,22 @@ let g:todo_switch_definition =
       \    '- \[x\]\(.*\)$': '- [ ]\1', 
       \ }
 
+" Copy current file's name
+nnoremap gy :call <SID>YankFilename(1)<cr>
+nnoremap gY :call <SID>YankFilename(0)<cr>
+function! s:YankFilename(relative)
+  let @@ = expand('%:p')
+
+  if a:relative " then relativize it
+    let @@ = fnamemodify(@@, ':~:.')
+  endif
+
+  let @* = @@
+  let @+ = @@
+
+  echo 'Yanked "'.@@.'" to clipboard'
+endfunction
+
 " SameLevel
 " Jump to same indentation level
 function! SameLevel()
