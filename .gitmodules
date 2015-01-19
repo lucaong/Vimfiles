@@ -65,3 +65,6 @@
 [submodule "bundle/vim-rust"]
 	path = bundle/vim-rust
 	url = git@github.com:wting/rust.vim.git
+[submodule "bundle/vim-sparkup"]
+	path = bundle/vim-sparkup
+	url = git@github.com:tristen/vim-sparkup.git
