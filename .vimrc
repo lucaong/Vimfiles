@@ -190,3 +190,6 @@ endfunction
 
 nnoremap sl :call SameLevel()<cr>
 nnoremap cl :execute ':set cc='.(indent(".") + 1)<cr>
+
+" Rspec command to run rspec with vim Dispatch
+command Rspec Dispatch rspec %
