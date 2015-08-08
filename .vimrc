@@ -33,6 +33,7 @@ nnoremap Y y$
 set textwidth=80
 
 " Theme
+set term=screen-256color
 set background=dark
 if !has("gui_running")
    let g:gruvbox_italic=0
