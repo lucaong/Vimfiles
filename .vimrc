@@ -192,11 +192,12 @@ nnoremap sl :call SameLevel()<cr>
 nnoremap cl :execute ':set cc='.(indent(".") + 1)<cr>
 
 " Rspec command to run rspec with vim Dispatch
-function! Rspec(c)
-  if a:c
-    execute "Dispatch rspec " . @% . ":" . a:c
+function! Rspec(line)
+  if a:line
+    execute "Dispatch rspec " . @% . ":" . a:line
   else
     execute "Dispatch rspec " . @%
   endif
 endfunction
 command -count=0 Rspec execute Rspec(<count>)
+command RspecAll Dispatch rspec
