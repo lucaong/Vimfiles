@@ -110,7 +110,7 @@ nmap gn :NERDTreeToggle<cr>
 nmap fn :NERDTreeFind<cr>
 
 " Ack (Andrew's fork)
-let g:ackprg = 'ack -H --nocolor --nogroup --column --ignore-dir="node_modules" --ignore-dir="log"'
+let g:ackprg = 'ack -H --nocolor --nogroup --column --ignore-dir="node_modules" --ignore-dir="log" --ignore-dir="coverage"'
 
 " Remap esc
 inoremap kj <Esc>
@@ -140,8 +140,8 @@ nnoremap <tab> :Switch<cr>
 
 let g:todo_switch_definition =
       \ {
-      \    '- \[ \]\(.*\)$': '- [x]\1', 
-      \    '- \[x\]\(.*\)$': '- [ ]\1', 
+      \    '- \[ \]\(.*\)$': '- [x]\1',
+      \    '- \[x\]\(.*\)$': '- [ ]\1',
       \ }
 
 " Copy current file's name
