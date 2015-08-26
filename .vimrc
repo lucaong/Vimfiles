@@ -194,10 +194,10 @@ nnoremap cl :execute ':set cc='.(indent(".") + 1)<cr>
 " Rspec command to run rspec with vim Dispatch
 function! Rspec(line)
   if a:line
-    execute "Dispatch rspec " . @% . ":" . a:line
+    execute "Dispatch 'bundle exec rspec' " . @% . ":" . a:line
   else
-    execute "Dispatch rspec " . @%
+    execute "Dispatch 'bundle exec rspec' " . @%
   endif
 endfunction
 command -count=0 Rspec execute Rspec(<count>)
-command RspecAll Dispatch rspec
+command RspecAll Dispatch "bundle exec rspec"
