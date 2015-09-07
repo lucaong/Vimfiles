@@ -42,9 +42,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
-[submodule "bundle/vim-projectile"]
-	path = bundle/vim-projectile
-	url = git@github.com:tpope/vim-projectile.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
@@ -74,3 +71,6 @@
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git@github.com:tpope/vim-fireplace.git
+[submodule "bundle/vim-projectionist"]
+	path = bundle/vim-projectionist
+	url = git@github.com:tpope/vim-projectionist.git
