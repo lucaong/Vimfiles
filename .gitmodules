@@ -74,3 +74,6 @@
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
 	url = git@github.com:tpope/vim-projectionist.git
+[submodule "bundle/vim-crystal"]
+	path = bundle/vim-crystal
+	url = git@github.com:rhysd/vim-crystal.git
