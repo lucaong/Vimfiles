@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-echo "Installing plugins" && git submodule init && git submodule update
-echo "Updating plugins" && git submodule foreach git pull origin master
