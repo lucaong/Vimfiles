@@ -11,8 +11,7 @@ To check this out, backup your `.vimrc` and your `.vim`, then checkout the repo 
     git clone git://github.com/lucaong/Vimfiles.git ~/.vim
     ln -s ~/.vim/.vimrc ~/.vimrc
     cd ~/.vim
-    git submodule init
-    git submodule update
+    ./setup_plugins
 
 You might also need to create the directory where swap and backup files are created:
 
