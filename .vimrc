@@ -134,7 +134,9 @@ nnoremap vv _vg_
 nnoremap <space> za
 
 " Clipboard
-set clipboard=unnamed
+if $TMUX == ''
+  set clipboard=unnamed
+endif
 
 nnoremap <tab> :Switch<cr>
 
@@ -200,4 +202,4 @@ function! Rspec(line)
   endif
 endfunction
 command -count=0 Rspec execute Rspec(<count>)
-command RspecAll Dispatch "bundle exec rspec"
+command RspecAll Dispatch bundle exec rspec
