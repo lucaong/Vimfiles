@@ -9,14 +9,14 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/splitjoin.vim"]
 	path = bundle/splitjoin.vim
-	url = git@github.com:AndrewRadev/splitjoin.vim.git
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
 [submodule "bundle/switch.vim"]
 	path = bundle/switch.vim
 	url = git://github.com/AndrewRadev/switch.vim.git
   ignore = untracked
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git@github.com:godlygeek/tabular.git
+	url = git://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
 	url = git://github.com/tpope/vim-afterimage.git
@@ -29,7 +29,7 @@
 	url = git://github.com/AndrewRadev/vim-coffee-script.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/tpope/vim-markdown.git
@@ -44,14 +44,14 @@
 	url = https://github.com/derekwyatt/vim-scala.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = git@github.com:bling/vim-airline.git
+	url = git://github.com/bling/vim-airline.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
-	url = git@github.com:guns/vim-clojure-static.git
+	url = git://github.com/guns/vim-clojure-static.git
   ignore = untracked
 [submodule "bundle/auto-complete-pop"]
 	path = bundle/auto-complete-pop
-	url = git@github.com:vim-scripts/AutoComplPop.git
+	url = https://github.com/vim-scripts/AutoComplPop.git
   ignore = untracked
 [submodule "bundle/gruvbox"]
 	path = bundle/gruvbox
@@ -61,19 +61,19 @@
 	url = https://github.com/kien/rainbow_parentheses.vim
 [submodule "bundle/vim-rust"]
 	path = bundle/vim-rust
-	url = git@github.com:wting/rust.vim.git
+	url = git://github.com/wting/rust.vim.git
 [submodule "bundle/vim-sparkup"]
 	path = bundle/vim-sparkup
-	url = git@github.com:tristen/vim-sparkup.git
+	url = git://github.com/tristen/vim-sparkup.git
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
-	url = git@github.com:tpope/vim-fireplace.git
+	url = git://github.com/tpope/vim-fireplace.git
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
-	url = git@github.com:tpope/vim-projectionist.git
+	url = git://github.com/tpope/vim-projectionist.git
 [submodule "bundle/vim-crystal"]
 	path = bundle/vim-crystal
-	url = git@github.com:rhysd/vim-crystal.git
+	url = git://github.com/rhysd/vim-crystal.git
