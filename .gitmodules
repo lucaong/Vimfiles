@@ -77,3 +77,6 @@
 [submodule "bundle/vim-crystal"]
 	path = bundle/vim-crystal
 	url = git://github.com/rhysd/vim-crystal.git
+[submodule "bundle/vim-rake"]
+	path = bundle/vim-rake
+	url = git://github.com/tpope/vim-rake.git
