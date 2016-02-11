@@ -138,13 +138,20 @@ if $TMUX == ''
   set clipboard=unnamed
 endif
 
+" Vim Switch
 nnoremap <tab> :Switch<cr>
-
 let g:todo_switch_definition =
       \ {
       \    '- \[ \]\(.*\)$': '- [x]\1',
       \    '- \[x\]\(.*\)$': '- [ ]\1',
       \ }
+
+" Projectionist globals
+let g:projectionist_heuristics = {
+      \ "shard.yml|shards.yml": {
+      \   "src/*.cr": {"alternate": "spec/{}_spec.cr"},
+      \   "spec/*_spec.cr": {"type": "spec", "alternate": "src/{}.cr"},
+      \ }}
 
 " Copy current file's name
 nnoremap gy :call <SID>YankFilename(1)<cr>
