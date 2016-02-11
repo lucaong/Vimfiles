@@ -134,9 +134,7 @@ nnoremap vv _vg_
 nnoremap <space> za
 
 " Clipboard
-if $TMUX == ''
-  set clipboard=unnamed
-endif
+set clipboard=unnamed
 
 " Vim Switch
 nnoremap <tab> :Switch<cr>
