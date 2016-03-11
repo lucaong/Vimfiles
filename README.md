@@ -2,7 +2,7 @@ Vimfiles
 ========
 
 This repository contains my Vim setup, for my convenience when I switch machines
-and for other people to make fun of :P
+and for other people to make fun of it :P
 
 It is intended to work on a Mac with terminal Vim version `7.3+`.
 
