@@ -210,6 +210,6 @@ command -count=0 Rspec execute Rspec(<count>)
 command RspecAll Dispatch bundle exec rspec
 
 " AutoCompletePop
-let g:acp_enableAtStartup    = 0 " Enable
+let g:acp_enableAtStartup    = 0 " Disable
 let g:acp_ignorecaseOption   = 0 " Don't ignore case, that's annoying
 let g:acp_behaviorFileLength = 2 " Speed up?
