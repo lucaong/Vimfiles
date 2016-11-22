@@ -57,6 +57,8 @@ set nowritebackup
 set history=1000
 set wildmenu
 set wildmode=list:longest
+set completeopt+=menu,menuone,noinsert
+set shortmess+=c
 
 " Moving around
 nnoremap j gj
@@ -208,7 +210,5 @@ endfunction
 command -count=0 Rspec execute Rspec(<count>)
 command RspecAll Dispatch bundle exec rspec
 
-" AutoCompletePop
-let g:acp_enableAtStartup    = 0 " Disable
-let g:acp_ignorecaseOption   = 0 " Don't ignore case, that's annoying
-let g:acp_behaviorFileLength = 2 " Speed up?
+" Mucomplete
+let g:mucomplete#enable_auto_at_startup = 1
