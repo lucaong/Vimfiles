@@ -134,9 +134,6 @@ nnoremap vv _vg_
 " toggle folding
 nnoremap <space> za
 
-" Clipboard
-set clipboard=unnamed
-
 " Vim Switch
 nnoremap <tab> :Switch<cr>
 let g:todo_switch_definition =
