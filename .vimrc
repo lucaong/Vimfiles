@@ -41,6 +41,9 @@ colorscheme gruvbox
 set guifont="Monaco for Powerline 14"
 set number
 
+" Clipboard
+set clipboard=unnamed
+
 " Tabs
 set expandtab
 set tabstop=2
@@ -148,6 +151,9 @@ let g:projectionist_heuristics = {
       \   "src/*.cr": {"alternate": "spec/{}_spec.cr"},
       \   "spec/*_spec.cr": {"type": "spec", "alternate": "src/{}.cr"},
       \ }}
+
+" vim-test
+let test#strategy = "dispatch"
 
 " Copy current file's name
 nnoremap gy :call <SID>YankFilename(1)<cr>
