@@ -63,6 +63,9 @@ set wildmode=list:longest
 set completeopt+=menu,menuone,noinsert
 set shortmess+=c
 
+" Shell
+set shell=/bin/zsh
+
 " Moving around
 nnoremap j gj
 nnoremap k gk
