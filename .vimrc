@@ -158,6 +158,9 @@ let g:projectionist_heuristics = {
 " vim-test
 let test#strategy = "dispatch"
 
+" Clojure (vim-fireplace)
+nmap gd <Plug>FireplaceK
+
 " Copy current file's name
 nnoremap gy :call <SID>YankFilename(1)<cr>
 nnoremap gY :call <SID>YankFilename(0)<cr>
@@ -218,3 +221,4 @@ command RspecAll Dispatch bundle exec rspec
 
 " Mucomplete
 let g:mucomplete#enable_auto_at_startup = 1
+set completeopt-=preview
