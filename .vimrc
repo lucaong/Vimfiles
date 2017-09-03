@@ -117,7 +117,7 @@ nmap gn :NERDTreeToggle<cr>
 nmap fn :NERDTreeFind<cr>
 
 " Ack (Andrew's fork)
-let g:ackprg = 'ack -H --nocolor --nogroup --column --ignore-dir="node_modules" --ignore-dir="log" --ignore-dir="coverage"'
+let g:ack_default_options = ' -H --nocolor --nogroup --column --ignore-dir="node_modules" --ignore-dir="log" --ignore-dir="coverage"'
 
 " Remap esc
 inoremap kj <Esc>
