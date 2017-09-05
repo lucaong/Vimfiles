@@ -222,3 +222,8 @@ command RspecAll Dispatch bundle exec rspec
 " Mucomplete
 let g:mucomplete#enable_auto_at_startup = 1
 set completeopt-=preview
+
+" Ale
+let g:airline#extensions#ale#enabled = 1
+let g:ale_linters = {'jsx': ['stylelint', 'standard'], 'javascript': ['standard']}
+let g:ale_linter_aliases = {'jsx': 'css'}
