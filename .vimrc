@@ -225,5 +225,8 @@ set completeopt-=preview
 
 " Ale
 let g:airline#extensions#ale#enabled = 1
-let g:ale_linters = {'jsx': ['stylelint', 'standard'], 'javascript': ['standard']}
+let g:ale_linters = {'jsx': ['standard'], 'javascript': ['standard']}
 let g:ale_linter_aliases = {'jsx': 'css'}
+let g:ale_fixers = {'jsx': ['standard'], 'javascript': ['standard']}
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
