@@ -88,3 +88,6 @@
 [submodule "bundle/vim-test"]
 	path = bundle/vim-test
 	url = git@github.com:janko-m/vim-test.git
+[submodule "bundle/tern.vim"]
+	path = bundle/tern.vim
+	url = git@github.com:ternjs/tern_for_vim.git
