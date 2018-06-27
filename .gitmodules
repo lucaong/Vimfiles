@@ -97,3 +97,6 @@
 [submodule "bundle/vim-poliglot"]
 	path = bundle/vim-poliglot
 	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "bundle/vim-graphql"]
+	path = bundle/vim-graphql
+	url = git@github.com:jparise/vim-graphql.git
