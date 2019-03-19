@@ -76,9 +76,6 @@
 [submodule "bundle/vim-mucomplete"]
 	path = bundle/vim-mucomplete
 	url = https://github.com/lifepillar/vim-mucomplete
-[submodule "bundle/vim-test"]
-	path = bundle/vim-test
-	url = git@github.com:janko-m/vim-test.git
 [submodule "bundle/ale.vim"]
 	path = bundle/ale.vim
 	url = git@github.com:w0rp/ale.git
