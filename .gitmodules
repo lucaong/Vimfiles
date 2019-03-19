@@ -73,9 +73,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
-[submodule "bundle/vim-mucomplete"]
-	path = bundle/vim-mucomplete
-	url = https://github.com/lifepillar/vim-mucomplete
 [submodule "bundle/ale.vim"]
 	path = bundle/ale.vim
 	url = git@github.com:w0rp/ale.git
