@@ -82,3 +82,6 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/vim-mucomplete"]
+	path = bundle/vim-mucomplete
+	url = https://github.com/lifepillar/vim-mucomplete.git
