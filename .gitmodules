@@ -82,3 +82,6 @@
 [submodule "bundle/vim-graphql"]
 	path = bundle/vim-graphql
 	url = git@github.com:jparise/vim-graphql.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
