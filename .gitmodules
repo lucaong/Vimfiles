@@ -14,9 +14,6 @@
 	path = bundle/switch.vim
 	url = git://github.com/AndrewRadev/switch.vim.git
   ignore = untracked
-[submodule "bundle/tabular"]
-	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
 	url = git://github.com/tpope/vim-afterimage.git
@@ -24,9 +21,6 @@
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = git://github.com/tpope/vim-bundler.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = git://github.com/AndrewRadev/vim-coffee-script.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
@@ -79,18 +73,12 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
-[submodule "bundle/vim-elixir"]
-	path = bundle/vim-elixir
-	url = git@github.com:elixir-lang/vim-elixir.git
 [submodule "bundle/vim-mucomplete"]
 	path = bundle/vim-mucomplete
 	url = https://github.com/lifepillar/vim-mucomplete
 [submodule "bundle/vim-test"]
 	path = bundle/vim-test
 	url = git@github.com:janko-m/vim-test.git
-[submodule "bundle/tern.vim"]
-	path = bundle/tern.vim
-	url = git@github.com:ternjs/tern_for_vim.git
 [submodule "bundle/ale.vim"]
 	path = bundle/ale.vim
 	url = git@github.com:w0rp/ale.git
