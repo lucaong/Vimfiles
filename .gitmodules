@@ -91,3 +91,6 @@
 [submodule "bundle/vim-mustache-handlebars"]
 	path = bundle/vim-mustache-handlebars
 	url = git@github.com:mustache/vim-mustache-handlebars.git
+[submodule "bundle/tagalong.vim"]
+	path = bundle/tagalong.vim
+	url = git@github.com:AndrewRadev/tagalong.vim.git
