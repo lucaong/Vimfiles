@@ -91,3 +91,6 @@
 [submodule "bundle/tagalong.vim"]
 	path = bundle/tagalong.vim
 	url = git@github.com:AndrewRadev/tagalong.vim.git
+[submodule "bundle/vim-jsx-pretty"]
+	path = bundle/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
