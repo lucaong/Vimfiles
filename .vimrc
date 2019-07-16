@@ -230,3 +230,6 @@ let g:ale_linter_aliases = {'jsx': 'css'}
 let g:ale_fixers = {'jsx': ['standard'], 'javascript': ['standard']}
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+" Exotic extensions
+autocmd BufNewFile,BufRead *.prawn set syntax=ruby
