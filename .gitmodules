@@ -94,3 +94,9 @@
 [submodule "bundle/vim-jsx-pretty"]
 	path = bundle/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "bundle/tsuquyomi"]
+	path = bundle/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
