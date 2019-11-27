@@ -233,3 +233,10 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 " Exotic extensions
 autocmd BufNewFile,BufRead *.prawn set syntax=ruby
+
+" Tsuquyomi (for TypeScript)
+set ballooneval
+autocmd FileType typescript setlocal balloonexpr=tsuquyomi#balloonexpr()
+autocmd FileType typescript.tsx setlocal balloonexpr=tsuquyomi#balloonexpr()
+autocmd FileType typescript nmap <buffer> T : <C-u>echo tsuquyomi#hint()<CR>
+autocmd FileType typescript.tsx nmap <buffer> T : <C-u>echo tsuquyomi#hint()<CR>
