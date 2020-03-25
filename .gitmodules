@@ -72,7 +72,7 @@
 	url = git://github.com/tpope/vim-rake.git
 [submodule "bundle/ale.vim"]
 	path = bundle/ale.vim
-	url = git@github.com:w0rp/ale.git
+	url = git@github.com:dense-analysis/ale.git
 [submodule "bundle/vim-graphql"]
 	path = bundle/vim-graphql
 	url = git@github.com:jparise/vim-graphql.git
@@ -103,3 +103,6 @@
 [submodule "bundle/vim-tsx"]
 	path = bundle/vim-tsx
 	url = git@github.com:ianks/vim-tsx.git
+[submodule "bundle/elixir-ls"]
+	path = bundle/elixir-ls
+	url = git@github.com:elixir-lsp/elixir-ls.git

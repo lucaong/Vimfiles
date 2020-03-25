@@ -225,9 +225,10 @@ set completeopt-=preview
 
 " Ale
 let g:airline#extensions#ale#enabled = 1
-let g:ale_linters = {'jsx': ['standard'], 'javascript': ['standard'], 'elixir': ['dialixir', 'credo', 'elixir_ls']}
+let g:ale_linters = {'jsx': ['standard'], 'javascript': ['standard'], 'elixir': ['elixir-ls']}
 let g:ale_linter_aliases = {'jsx': 'css'}
-let g:ale_fixers = {'jsx': ['standard'], 'javascript': ['standard']}
+let g:ale_fixers = {'jsx': ['standard'], 'javascript': ['standard'], 'elixir': ['mix_format']}
+let g:ale_elixir_elixir_ls_release = '/Users/luca/.vim/bundle/elixir-ls/release'
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
