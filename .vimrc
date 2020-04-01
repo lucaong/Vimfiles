@@ -241,3 +241,6 @@ autocmd FileType typescript setlocal balloonexpr=tsuquyomi#balloonexpr()
 autocmd FileType typescript.tsx setlocal balloonexpr=tsuquyomi#balloonexpr()
 autocmd FileType typescript nmap <buffer> T : <C-u>echo tsuquyomi#hint()<CR>
 autocmd FileType typescript.tsx nmap <buffer> T : <C-u>echo tsuquyomi#hint()<CR>
+
+" Vim Move
+let g:move_key_modifier = 'C'
