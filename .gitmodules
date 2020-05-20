@@ -109,3 +109,6 @@
 [submodule "bundle/vim-move"]
 	path = bundle/vim-move
 	url = git@github.com:matze/vim-move.git
+[submodule "bundle/vim-jsonpath"]
+	path = bundle/vim-jsonpath
+	url = git@github.com:mogelbrod/vim-jsonpath.git
