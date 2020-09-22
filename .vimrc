@@ -244,3 +244,6 @@ autocmd FileType typescript.tsx nmap <buffer> T : <C-u>echo tsuquyomi#hint()<CR>
 
 " Vim Move
 let g:move_key_modifier = 'C'
+
+" Vim JavaScript
+let g:javascript_plugin_jsdoc = 1
