@@ -112,3 +112,12 @@
 [submodule "bundle/vim-jsonpath"]
 	path = bundle/vim-jsonpath
 	url = git@github.com:mogelbrod/vim-jsonpath.git
+[submodule "bundle/asyncomplete.vim"]
+	path = bundle/asyncomplete.vim
+	url = git@github.com:prabirshrestha/asyncomplete.vim.git
+[submodule "bundle/asyncomplete-lsp.vim"]
+	path = bundle/asyncomplete-lsp.vim
+	url = git@github.com:prabirshrestha/asyncomplete-lsp.vim.git
+[submodule "bundle/async.vim"]
+	path = bundle/async.vim
+	url = git@github.com:prabirshrestha/async.vim.git

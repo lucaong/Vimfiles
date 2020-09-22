@@ -247,3 +247,38 @@ let g:move_key_modifier = 'C'
 
 " Vim JavaScript
 let g:javascript_plugin_jsdoc = 1
+
+" Language Server Support
+" Setup requires:
+"   - async.vim to normalize async API of Vim 8 and nvim
+"   - asyncomplete.vim
+"   - asyncomplete-lsp.vim
+"
+" See: https://medium.com/@vanuan/vim-for-typescript-and-react-in-2020-9724b9139be2
+" TypeScript Language Server
+if executable('typescript-language-server')
+  au User lsp_setup call lsp#register_server({
+    \ 'name': 'TypeScript support using typescript-language-server',
+    \ 'cmd': {server_info->[&shell, &shellcmdflag, 'typescript-language-server --stdio']},
+    \ 'root_uri':{server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), 'tsconfig.json'))},
+    \ 'whitelist': ['typescript', 'typescript.tsx', 'typescriptreact'],
+    \ })
+else
+  echohl ErrorMsg
+  echom 'Sorry, `typescript-language-server` is not installed. See :h vim-lsp-typescript for more details on setup.'
+  echohl NONE
+endif
+
+" Ruby Language Server (solargraph)
+if executable('solargraph')
+  au User lsp_setup call lsp#register_server({
+    \ 'name': 'Ruby support using Solargraph',
+    \ 'cmd': {server_info->[&shell, &shellcmdflag, 'solargraph stdio']},
+    \ 'root_uri':{server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), 'Gemfile'))},
+    \ 'whitelist': ['ruby'],
+    \ })
+else
+  echohl ErrorMsg
+  echom 'Sorry, `solargraph` is not installed. See :h vim-lsp-typescript for more details on setup.'
+  echohl NONE
+endif
