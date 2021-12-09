@@ -265,7 +265,7 @@ if executable('typescript-language-server')
     \ })
 else
   echohl ErrorMsg
-  echom 'Sorry, `typescript-language-server` is not installed. See :h vim-lsp-typescript for more details on setup.'
+  echom 'Sorry, `typescript-language-server` is not installed. Install it, e.g. with: `npm install -g typescript-language-server`.'
   echohl NONE
 endif
 
@@ -279,6 +279,6 @@ if executable('solargraph')
     \ })
 else
   echohl ErrorMsg
-  echom 'Sorry, `solargraph` is not installed. See :h vim-lsp-typescript for more details on setup.'
+  echom 'Sorry, `solargraph` is not installed. Install it, e.g. with: `gem install solargraph`.'
   echohl NONE
 endif
