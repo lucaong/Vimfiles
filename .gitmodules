@@ -1,9 +1,9 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
-	url = git://github.com/AndrewRadev/ack.vim.git
+	url = https://github.com/AndrewRadev/ack.vim.git
 [submodule "bundle/colorizer"]
 	path = bundle/colorizer
-	url = git://github.com/lilydjwg/colorizer.git
+	url = https://github.com/lilydjwg/colorizer.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -12,36 +12,36 @@
 	url = https://github.com/AndrewRadev/splitjoin.vim.git
 [submodule "bundle/switch.vim"]
 	path = bundle/switch.vim
-	url = git://github.com/AndrewRadev/switch.vim.git
+	url = https://github.com/AndrewRadev/switch.vim.git
   ignore = untracked
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
-	url = git://github.com/tpope/vim-afterimage.git
+	url = https://github.com/tpope/vim-afterimage.git
   ignore = untracked
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
-	url = git://github.com/tpope/vim-bundler.git
+	url = https://github.com/tpope/vim-bundler.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = git://github.com/tpope/vim-markdown.git
+	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
+	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
+	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = git://github.com/bling/vim-airline.git
+	url = https://github.com/bling/vim-airline.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
-	url = git://github.com/guns/vim-clojure-static.git
+	url = https://github.com/guns/vim-clojure-static.git
   ignore = untracked
 [submodule "bundle/gruvbox"]
 	path = bundle/gruvbox
@@ -51,25 +51,25 @@
 	url = https://github.com/kien/rainbow_parentheses.vim
 [submodule "bundle/vim-rust"]
 	path = bundle/vim-rust
-	url = git://github.com/wting/rust.vim.git
+	url = https://github.com/wting/rust.vim.git
 [submodule "bundle/vim-sparkup"]
 	path = bundle/vim-sparkup
-	url = git://github.com/tristen/vim-sparkup.git
+	url = https://github.com/tristen/vim-sparkup.git
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
-	url = git://github.com/tpope/vim-fireplace.git
+	url = https://github.com/tpope/vim-fireplace.git
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
-	url = git://github.com/tpope/vim-projectionist.git
+	url = https://github.com/tpope/vim-projectionist.git
 [submodule "bundle/vim-crystal"]
 	path = bundle/vim-crystal
-	url = git://github.com/rhysd/vim-crystal.git
+	url = https://github.com/rhysd/vim-crystal.git
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
-	url = git://github.com/tpope/vim-rake.git
+	url = https://github.com/tpope/vim-rake.git
 [submodule "bundle/ale.vim"]
 	path = bundle/ale.vim
 	url = git@github.com:dense-analysis/ale.git
