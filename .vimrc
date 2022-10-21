@@ -38,7 +38,7 @@ if !has("gui_running")
    let g:gruvbox_italic=0
 endif
 colorscheme gruvbox
-set guifont="Monaco for Powerline 14"
+set guifont="Monaco for Powerline 13"
 set number
 
 " Clipboard
