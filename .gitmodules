@@ -121,3 +121,6 @@
 [submodule "bundle/async.vim"]
 	path = bundle/async.vim
 	url = git@github.com:prabirshrestha/async.vim.git
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
