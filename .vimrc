@@ -250,6 +250,9 @@ let g:move_key_modifier = 'C'
 " Vim JavaScript
 let g:javascript_plugin_jsdoc = 1
 
+" SQLComplete disable annoying completion that errors for missing dbext plugin
+let g:omni_sql_default_compl_type = 'syntax'
+
 " Language Server Support
 " Setup requires:
 "   - async.vim to normalize async API of Vim 8 and nvim
