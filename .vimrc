@@ -252,6 +252,7 @@ let g:javascript_plugin_jsdoc = 1
 
 " SQLComplete disable annoying completion that errors for missing dbext plugin
 let g:omni_sql_default_compl_type = 'syntax'
+let g:omni_sql_no_default_maps = 1
 
 " Language Server Support
 " Setup requires:
