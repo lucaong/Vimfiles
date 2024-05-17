@@ -127,3 +127,4 @@
 [submodule "bundle/copilot.vim"]
 	path = bundle/copilot.vim
 	url = git@github.com:github/copilot.vim.git
+  branch = release

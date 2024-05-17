@@ -31,6 +31,7 @@ set fileformats=unix
 set wildmode=list:full
 nnoremap Y y$
 set textwidth=80
+set omnifunc=
 
 " Theme
 set background=dark
@@ -115,6 +116,7 @@ nmap sj :SplitjoinSplit<cr>
 " NERDTree
 nmap gn :NERDTreeToggle<cr>
 nmap fn :NERDTreeFind<cr>
+let NERDTreeShowHidden=1
 
 " Ack (Andrew's fork)
 let g:ack_default_options = ' -H --nocolor --nogroup --column --ignore-dir="node_modules" --ignore-dir="log" --ignore-dir="coverage"'
