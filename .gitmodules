@@ -10,10 +10,11 @@
 [submodule "bundle/splitjoin.vim"]
 	path = bundle/splitjoin.vim
 	url = https://github.com/AndrewRadev/splitjoin.vim.git
+  ignore = dirty
 [submodule "bundle/switch.vim"]
 	path = bundle/switch.vim
 	url = https://github.com/AndrewRadev/switch.vim.git
-  ignore = untracked
+  ignore = dirty
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
 	url = https://github.com/tpope/vim-afterimage.git
